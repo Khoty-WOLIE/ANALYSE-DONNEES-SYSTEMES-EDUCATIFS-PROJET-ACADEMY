@@ -6,7 +6,7 @@ Analysez des données de systèmes éducatifs
 
 ## Aperçu de l'entreprise
 
-![Aperçu du site web](images/DS_projet2.PNG)
+![Aperçu du site web](images/DS_projet2..PNG)
 
 ## Contexte
 
