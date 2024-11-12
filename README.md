@@ -4,6 +4,10 @@ Analysez des données de systèmes éducatifs
 
 # Analyse des Données des Systèmes Éducatifs - Projet Academy
 
+## Aperçu de l'entreprise
+
+![Aperçu du site web](images/DS_projet2.PNG)
+
 ## Contexte
 
 Je suis Data Scientist dans une startup EdTech, **academy**, qui propose des contenus de formation en ligne pour un public de niveau lycée et université. Dans le cadre du projet d'expansion internationale de l’entreprise, mon manager, **Mark**, m'a confié la mission d’analyser les données du système éducatif mondial fournies par la **Banque mondiale**. L'objectif est de déterminer si ces données peuvent informer les décisions stratégiques pour l'extension de nos services à l'international.
