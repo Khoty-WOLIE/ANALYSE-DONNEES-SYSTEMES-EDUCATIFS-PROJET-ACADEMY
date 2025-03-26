@@ -1,91 +1,99 @@
-# OPC_DATA_SCIENTIST_PROJET2
-Analysez des données de systèmes éducatifs
-
-
-# Analyse des Données des Systèmes Éducatifs - Projet Academy
-
 ## Aperçu de l'entreprise
 
 ![Aperçu du site web](images/DS_projet_2.PNG)
 
-## Contexte
+## 📌 Contexte professionnel
 
-Je suis Data Scientist dans une startup EdTech, **academy**, qui propose des contenus de formation en ligne pour un public de niveau lycée et université. Dans le cadre du projet d'expansion internationale de l’entreprise, mon manager, **Mark**, m'a confié la mission d’analyser les données du système éducatif mondial fournies par la **Banque mondiale**. L'objectif est de déterminer si ces données peuvent informer les décisions stratégiques pour l'extension de nos services à l'international.
+En tant que **Data Scientist** dans la startup EdTech **Academy**, j’ai été missionné pour contribuer à l’expansion internationale de l’entreprise à travers l’analyse des données du système éducatif mondial, issues de la **Banque mondiale** (EdStats).
 
-## Objectifs du Projet
+Sous la supervision de **Mark**, mon manager, l’objectif était de déterminer si ces données pouvaient servir de **leviers stratégiques** pour guider le déploiement des services d’e-learning dans de nouveaux pays cibles.
 
-1. **Validation de la Qualité des Données** : Vérifier la qualité du jeu de données en identifiant les valeurs manquantes et dupliquées, ainsi qu'en évaluant les types de données et la structure globale.
-   
-2. **Sélection des Indicateurs Pertinents** : Identifier les indicateurs clés dans le jeu de données qui pourront aider à répondre aux questions stratégiques de l’entreprise, notamment les indicateurs liés à l’accès à l’éducation, aux diplômes, et aux dépenses éducatives.
+---
 
-3. **Analyse Statistique des Indicateurs** : Réaliser des analyses statistiques descriptives (moyennes, médianes, écarts-types, etc.) par pays, continent, ou bloc géographique pour comprendre les tendances générales dans les différents systèmes éducatifs.
+## 🎯 Objectifs de la mission
 
-4. **Présenter les Résultats et les Recommandations** : Préparer une présentation claire et professionnelle pour partager les résultats de l’analyse avec les parties prenantes, en illustrant les insights par des graphiques et en formulant des recommandations concrètes pour les futures décisions stratégiques.
+1. **Vérifier la qualité et la structure des données**
+2. **Sélectionner les indicateurs éducatifs les plus pertinents**
+3. **Réaliser une analyse statistique descriptive par pays et continent**
+4. **Fournir des visualisations claires et des recommandations stratégiques**
 
-## Étapes du Projet
+---
 
-### Étape 1 : Validation de la Qualité des Données
+## 🧩 Étapes de réalisation
 
-- **Objectif** : Vérifier si les données de la Banque mondiale sont de qualité suffisante pour être utilisées dans une analyse stratégique.
-- **Détails** :
-  - Identifier les valeurs manquantes et dupliquées.
-  - Décrire la structure des données : nombre de lignes, de colonnes, types de variables, etc.
-  - Valider la cohérence des données en vérifiant l’exhaustivité des informations.
-- **Livrable** : Un notebook Jupyter décrivant le processus de validation de la qualité des données.
+### 1. Validation de la qualité des données
 
-### Étape 2 : Sélection des Indicateurs Pertinents
+- Analyse des valeurs manquantes, doublons et types de données
+- Description de la structure du dataset (dimensions, colonnes, cohérence)
+- Vérification de l’exploitabilité des informations fournies par la Banque mondiale
 
-- **Objectif** : Identifier les colonnes et les années pertinentes dans le jeu de données pour répondre aux questions stratégiques liées à l'expansion internationale.
-- **Détails** :
-  - Sélectionner environ 15 indicateurs liés à l'accès à l’éducation, aux diplômes, aux enseignants et aux dépenses éducatives.
-  - Filtrer les données pour ne conserver que les colonnes et années jugées pertinentes.
-  - Évaluer la qualité des données associées à ces indicateurs pour s’assurer qu’elles sont exploitables.
-- **Livrable** : Un notebook contenant le processus de filtrage et de sélection des données pertinentes.
+### 2. Sélection des indicateurs pertinents
 
-### Étape 3 : Création d'un DataFrame Exploitable
+- Choix de 15 indicateurs clés liés :
+  - à l’accès à l’éducation
+  - aux dépenses éducatives
+  - au personnel enseignant
+  - aux taux de scolarisation et de diplomation
+- Filtrage des colonnes et années exploitables
 
-- **Objectif** : Organiser les données de manière à ce qu’elles soient prêtes pour une analyse descriptive.
-- **Détails** :
-  - Structurer les données pour que chaque ligne représente un pays (ou un pays/année) et chaque colonne un indicateur.
-  - Utiliser des méthodes comme le **pivot table** pour réorganiser les données de manière à ce qu’elles soient prêtes pour l’analyse.
-  - Nettoyer et organiser les données pour faciliter l’analyse des tendances par pays et par région géographique.
-- **Livrable** : Un ou plusieurs DataFrames prêts pour l’analyse, organisés par pays/année et indicateurs.
+### 3. Structuration des données pour l’analyse
 
-### Étape 4 : Analyse Statistique et Visualisation
+- Restructuration des données par pays et indicateurs (via pivot tables)
+- Nettoyage des colonnes pour obtenir des **DataFrames exploitables**
+- Agrégation des données par région ou bloc géographique
 
-- **Objectif** : Réaliser une analyse descriptive des données et visualiser les tendances par pays et région.
-- **Détails** :
-  - Calculer des statistiques descriptives (moyenne, médiane, écart-type, etc.) pour chaque indicateur à l’échelle des pays et des continents.
-  - Créer des visualisations univariées (histogrammes, boîte à moustaches) et bivariées (nuages de points, barplots) pour illustrer les relations entre les différents indicateurs.
-  - Analyser les corrélations entre les indicateurs et observer les tendances sur plusieurs années.
-- **Livrable** : Un notebook contenant les analyses statistiques et les visualisations associées.
+### 4. Analyse statistique et visualisation
 
-### Étape 5 : Présentation des Résultats
+- Calcul des statistiques descriptives (moyenne, médiane, écart-type)
+- Visualisations :
+  - Histogrammes
+  - Boîtes à moustaches (boxplots)
+  - Nuages de points (scatter plots)
+  - Cartes de chaleur des corrélations
+- Mise en évidence des écarts entre régions ou continents
 
-- **Objectif** : Présenter une synthèse des résultats de l’analyse sous forme d’une présentation claire et structurée.
-- **Détails** :
-  - Expliquer la méthodologie utilisée pour analyser les données, en vulgarisant les concepts techniques.
-  - Partager les résultats obtenus, illustrés par des graphiques pertinents.
-  - Fournir des recommandations sur la pertinence de ces données pour informer le projet d’expansion internationale de l’entreprise.
-- **Livrable** : Une présentation PowerPoint ou un rapport détaillant les résultats et les recommandations.
+### 5. Présentation des résultats
 
-## Détails Techniques
+- Création d’une **présentation PowerPoint** incluant :
+  - Méthodologie d’analyse
+  - Graphiques de synthèse
+  - Recommandations pour la stratégie d’expansion internationale
+- Documentation du notebook pour assurer la reproductibilité
 
-- **Fichiers** :
-  - `Données de la Banque mondiale` : Données de l’éducation issues de l'organisme EdStats de la Banque mondiale, accessibles via le site de la Banque mondiale.
-  - **Notebook de Préparation des Données** : Contient le processus de validation, de filtrage et d'organisation des données.
-  - **Notebook d’Analyse Statistique** : Contient l’analyse descriptive et les visualisations.
+---
 
-- **Outils Utilisés** :
-  - **Python** (Jupyter Notebook) pour la préparation des données, le nettoyage, et l’analyse statistique.
-  - **Pandas**, **Matplotlib**, **Seaborn** pour la manipulation des DataFrames et la création de visualisations.
+## 📂 Livrables
 
-- **Compétences Utilisées** :
-  - Nettoyage et validation des données.
-  - Sélection des indicateurs pertinents.
-  - Analyse descriptive et visualisation des données.
-  - Communication des résultats et des recommandations.
+- **Notebook de préparation et nettoyage des données**
+- **Notebook d’analyse descriptive et de visualisation**
+- **Présentation des résultats** à destination des parties prenantes
+- **Rapport synthétique** incluant les recommandations
 
-## Résumé
+---
 
-Ce projet me permet de contribuer à l’expansion internationale d’academy en analysant les données du système éducatif mondial fournies par la Banque mondiale. En sélectionnant les indicateurs les plus pertinents et en réalisant une analyse descriptive détaillée, je fournis des insights qui aideront à orienter les décisions stratégiques pour l’ouverture de nouveaux marchés dans le secteur de l’éducation.
+## 🛠️ Compétences mobilisées
+
+- Nettoyage et validation de données ouvertes (Banque mondiale)
+- Sélection et évaluation d’indicateurs stratégiques
+- Analyse descriptive à l’échelle internationale
+- Visualisation avancée avec **Seaborn** et **Matplotlib**
+- Vulgarisation des résultats et recommandations opérationnelles
+
+---
+
+## ✅ Résultats et impact
+
+- Définition d’un **profil éducatif par pays** pour identifier les marchés les plus pertinents
+- Mise en évidence d’opportunités stratégiques en fonction des disparités éducatives
+- Support analytique pour les **décisions de déploiement international**
+- Renforcement de la capacité de l’entreprise à **exploiter les données publiques pour orienter sa croissance**
+
+---
+
+## 🔍 Aperçu
+
+> Ce projet illustre ma capacité à transformer un jeu de données institutionnel en **insights stratégiques** exploitables pour la croissance d’une entreprise dans un contexte international.
+
+---
+
+*Mission réalisée dans un cadre professionnel simulé, avec des responsabilités équivalentes à celles d’un Data Scientist en startup tech.*
